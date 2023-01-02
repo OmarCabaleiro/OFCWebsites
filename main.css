@@ -1,0 +1,54 @@
+* {
+  font-family: sans-serif;
+  text-align: center;
+  color: navy;
+}
+
+h1 {
+  margin-top: 10%;
+  margin-bottom: 10px;
+  color: white;
+}
+
+h1 span{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+h2 span{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+}
+
+p {
+  color: white;
+}
+
+a {
+  color: white;  
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px;
+}
+
+a:hover {
+  color: rgb(100, 100, 100);
+}
+
+/* background video */
+.wrapper {
+  position: fixed;
+  z-index: -99;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+}
+
+#video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  z-index: -1;
+}
